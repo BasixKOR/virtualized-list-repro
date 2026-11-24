@@ -37,7 +37,7 @@ Preconditions for `scripts/repro.sh`: app installed, Metro running, app not alre
 - **Actual:** The counter keeps climbing.
 - **Measured on 0.88.1 (events in the 30 s after the last fling):** 422, 325, 334 in 3 runs; with the 1768x2400 step removed: 0, 0.
 
-Upstream issue: TODO
+Upstream issue: https://github.com/react/react-native/issues/60251
 
 This is your new React Native Reproducer project.
 
@@ -47,7 +47,7 @@ This is your new React Native Reproducer project.
 - [x] 2. Git clone your repository locally.
 - [x] 3. Edit the project to reproduce the failure you're seeing.
 - [x] 4. Push your changes, so that Github Actions can run the CI.
-- [ ] 5. Make sure the repository is public and share the link with the issue you reported.
+- [x] 5. Make sure the repository is public and share the link with the issue you reported.
 
 # How to use this Reproducer
 
